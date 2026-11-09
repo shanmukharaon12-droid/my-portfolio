@@ -85,22 +85,25 @@ export default function CharacterCanvas({ onLoaded }) {
       }
     };
 
+    const baseUrl = import.meta.env.BASE_URL || '/';
+    const cleanBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+
     // Preload center image
     const centerImg = new Image();
-    centerImg.src = '/center.webp';
+    centerImg.src = `${cleanBase}center.webp`;
     centerImg.onload = () => {
       centerImageRef.current = centerImg;
       checkComplete();
     };
     centerImg.onerror = () => {
-      console.warn('Failed to load /center.webp, fallback to frame_0');
+      console.warn('Failed to load center.webp, fallback to frame_0');
       checkComplete();
     };
 
     // Preload 64 frames
     for (let i = 0; i < TOTAL_FRAMES; i++) {
       const img = new Image();
-      img.src = `/frames/frame_${i}.webp`;
+      img.src = `${cleanBase}frames/frame_${i}.webp`;
       img.onload = () => {
         checkComplete();
       };

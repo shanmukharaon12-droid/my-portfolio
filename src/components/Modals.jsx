@@ -312,7 +312,7 @@ export default function Modals({ activeModal, onClose }) {
                   <p className="text-xs text-amber-300">Full Stack Developer & Creative Technologist</p>
                 </div>
                 <a
-                  href="/resume.pdf"
+                  href={`${(import.meta.env.BASE_URL || '/').replace(/\/?$/, '/') }resume.pdf`}
                   download="Shannu_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
