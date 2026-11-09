@@ -33,7 +33,7 @@ export default function Modals({ activeModal, onClose }) {
             <span className="w-2.5 h-2.5 rounded-full bg-amber-400" />
             <h2 className="text-sm font-bold uppercase tracking-widest text-white/90">
               {activeModal === 'work' && 'Featured Work'}
-              {activeModal === 'about' && 'About [SHANNU]'}
+              {activeModal === 'about' && 'About Shannu'}
               {activeModal === 'contact' && 'Get In Touch'}
               {activeModal === 'resume' && 'Curriculum Vitae'}
             </h2>
@@ -159,7 +159,7 @@ export default function Modals({ activeModal, onClose }) {
                   S
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white">[SHANNU]</h3>
+                  <h3 className="text-2xl font-bold text-white">Shannu</h3>
                   <p className="text-xs text-amber-300/90 uppercase tracking-widest font-mono">
                     Full Stack Developer • Creative Technologist
                   </p>
@@ -308,7 +308,7 @@ export default function Modals({ activeModal, onClose }) {
             <div className="space-y-6">
               <div className="flex flex-wrap items-center justify-between gap-4">
                 <div>
-                  <h3 className="text-xl font-bold text-white">[SHANNU]</h3>
+                  <h3 className="text-xl font-bold text-white">Shannu</h3>
                   <p className="text-xs text-amber-300">Full Stack Developer & Creative Technologist</p>
                 </div>
                 <a

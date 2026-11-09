@@ -18,7 +18,7 @@ export default function HeroContent({ onOpenModal }) {
             Hi, I'm
           </p>
           <h1 className="font-cursive-signature text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-white tracking-normal drop-shadow-[0_8px_30px_rgba(0,0,0,0.4)] leading-tight pb-1">
-            [SHANNU]
+            Shannu
           </h1>
         </div>
 

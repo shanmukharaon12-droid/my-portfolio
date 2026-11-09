@@ -262,7 +262,7 @@ export default function CharacterCanvas({ onLoaded }) {
         <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-[#9a1611] text-white">
           <div className="flex flex-col items-center space-y-4 max-w-xs w-full px-6 text-center">
             <div className="w-10 h-10 rounded-full border-2 border-white/20 border-t-white animate-spin mb-2" />
-            <span className="font-cursive-signature text-4xl text-orange-200">[SHANNU]</span>
+            <span className="font-cursive-signature text-4xl text-orange-200">Shannu</span>
             <p className="text-xs uppercase tracking-widest text-white/60">Crafting Experience</p>
             <div className="w-full h-1 bg-white/10 rounded-full overflow-hidden">
               <div 
